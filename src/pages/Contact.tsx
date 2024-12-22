@@ -11,11 +11,11 @@ export const Contact = () => {
         src={contactImage}
         alt="image of berlin"
       />
-      <div className="text-container">
+      <article className="text-container">
         <h1>{t("contact-page.contact")}</h1>
         <h2>{t("contact-page.send-email")}</h2>
         <p>{t("contact-page.email")}</p>
-      </div>
+      </article>
     </div>
   );
 };

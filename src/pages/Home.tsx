@@ -77,10 +77,10 @@ export const Home = () => {
         </div>
       </section>
 
-      <section className="text-info-section">
-        <h2>{t("home-page.info-headline")}</h2>
+      <article className="text-info-section">
+        <h1>{t("home-page.info-headline")}</h1>
         <p>{t("home-page.info-text")}</p>
-      </section>
+      </article>
     </div>
   );
 };

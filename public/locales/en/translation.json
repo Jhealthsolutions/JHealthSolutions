@@ -85,5 +85,36 @@
     "fourth-text": "2. Collection and Use of Personal Data Our website is solely intended to provide information about our company and our services. We do not store any personal data unless you voluntarily provide it to us.<br>Contact: <br>If you contact us by email, phone, or through a contact form, we will use the data you provide (e.g., name, email address, phone number) solely for the purpose of processing your inquiry. This data will not be shared with third parties. Once your inquiry has been fully processed and there are no legal retention obligations, the data you have provided will be deleted.",
     "fifth-text": "3. No Storage of Access Data<br>No personal data is automatically stored when you visit our website. We do not use cookies, tracking tools, or similar technologies.<br>4. Data Sharing<br>Your personal data will not be sold or shared with third parties by us.<br>5. Your Rights<br>You have the right to:<br>Obtain information about the personal data we process (Art. 15 GDPR),<br>Request the correction of incorrect data (Art. 16 GDPR),<br>Request the deletion of your data (Art. 17 GDPR),<br>Object to the processing of your data (Art. 21 GDPR),<br>Request a restriction on the processing (Art. 18 GDPR),<br>Withdraw your consent to data processing at any time (Art. 7(3) GDPR).<br>To exercise these rights, you can contact us at any time using the contact information provided above.<br>6. Changes to This Privacy Policy<br>We reserve the right to adjust this privacy policy as needed to reflect changes in legal requirements. The current version is available on our website at any time. As of: December, 2024",
     "sixth-text": "Note: This privacy policy is drafted under German law and is tailored for websites that do not store data and only use personal data for contact purposes."
+  },
+  "science-technology-page": {
+    "headline": "The software Oranta-AO combines a blood pressure monitor with a mobile application and a web platform to analyze arterial oscillations.",
+    "operating-principle": {
+      "headline": "Operating principle",
+      "phase-1": "Phase 1: Data acquisition via a blood pressure monitor that registers arterial oscillations.",
+      "phase-2": "Phase 2: Data transfer to the mobile app and/or server.",
+      "phase-3": "Phase 3: Processing and analysis of data (morphological, temporal, spectral, correlation methods).",
+      "phase-4": "Phase 4: Display the results in the user account and provide visualizations."
+    },
+    "technology": {
+      "headline": "Technologies",
+      "first-text": {
+        "headline": "Signal processing:",
+        "text-1": "Fourier Transform, Hilbert-Huang Transformation, Fractal Analysis."
+      },
+      "second-text": {
+        "headline": "Statistical analysis:",
+        "text-1": "Variability metrics such as SDNN, RMSSD:",
+        "text-2": "Machine learning:",
+        "text-3": "K-Means Clustering and Regression.",
+        "text-4": "Advantages",
+        "text-5": "Automated analysis and recommendations.",
+        "text-6": "Integration with mobile and web-based platforms."
+      }
+    },
+    "data-analysis-process": {
+      "measurement": "Measurement",
+      "data-transfer": "Transfer",
+      "data-analysis": "Analysis"
+    }
   }
 }

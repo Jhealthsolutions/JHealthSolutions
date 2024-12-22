@@ -85,5 +85,36 @@
     "fourth-text": "2. Erhebung und Verwendung personenbezogener Daten Unsere Website dient ausschließlich der Bereitstellung von Informationen über unser Unternehmen und unsere Dienstleistungen. Wir speichern keine personenbezogenen Daten von Ihnen, solange Sie uns diese nicht freiwillig mitteilen.<br>Kontaktaufnahme:<br>Wenn Sie uns per E-Mail, Telefon oder über ein Kontaktformular kontaktieren, verwenden wir Ihre angegebenen Daten (z. B. Name, E-Mail-Adresse, Telefonnummer) ausschließlich zum Zweck der Bearbeitung Ihrer Anfrage. Eine Weitergabe dieser Daten an Dritte erfolgt nicht. Sobald Ihre Anfrage vollständig bearbeitet ist und keine gesetzlichen Aufbewahrungspflichten bestehen, werden die von Ihnen mitgeteilten Daten gelöscht.",
     "fifth-text": "3. Keine Speicherung von Zugriffsdaten<br>Beim Besuch unserer Website werden keine personenbezogenen Daten automatisch gespeichert. Wir verwenden keine Cookies, Tracking-Tools oder ähnliche Technologien.<br>4. Weitergabe von Daten<br>Ihre personenbezogenen Daten werden von uns weder verkauft noch an Dritte weitergegeben.<br>5. Ihre Rechte<br>Sie haben das Recht:<br>Auskunft über die von uns verarbeiteten personenbezogenen Daten zu erhalten (Art. 15 DSGVO),<br>die Berichtigung unrichtiger Daten zu verlangen (Art. 16 DSGVO),<br>die Löschung Ihrer Daten zu verlangen (Art. 17 DSGVO),<br>der Verarbeitung Ihrer Daten zu widersprechen (Art. 21 DSGVO),<br>eine Einschränkung der Verarbeitung zu verlangen (Art. 18 DSGVO),<br>Ihre Einwilligung zur Datenverarbeitung jederzeit zu widerrufen (Art. 7 Abs. 3 DSGVO).<br>Zur Ausübung dieser Rechte können Sie uns jederzeit unter den oben angegebenen Kontaktdaten erreichen.<br>6. Änderungen dieser Datenschutzerklärung<br>Wir behalten uns vor, diese Datenschutzerklärung bei Bedarf anzupassen, um sie an geänderte rechtliche Rahmenbedingungen anzupassen. Die aktuelle Version ist jederzeit auf unserer Website verfügbar. Stand: Dezember, 2024",
     "sixth-text": "Hinweis: Diese Datenschutzerklärung ist nach deutschem Recht verfasst und an Websites angepasst, die keine Daten speichern und personenbezogene Daten nur zur Kontaktaufnahme nutzen"
+  },
+  "science-technology-page": {
+    "headline": "Die Software „Oranta-AO“ kombiniert ein Blutdruckmessgerät mit einer mobilen Anwendung und einer Web-Plattform, um arterielle Oszillationen zu analysieren.",
+    "operating-principle": {
+      "headline": "Funktionsprinzip",
+      "phase-1": "Phase 1: Datenaufnahme über ein Blutdruckmessgerät, das arterielle Oszillationen registriert.",
+      "phase-2": "Phase 2: Datenübertragung an die mobile App und/oder den Server.",
+      "phase-3": "Phase 3: Verarbeitung und Analyse der Daten (morphologisch, zeitlich, spektral, Korrelationsmethoden).",
+      "phase-4": "Phase 4: Anzeige der Ergebnisse im Nutzerkonto und Bereitstellung von Visualisierungen."
+    },
+    "technology": {
+      "headline": "Technologien",
+      "first-text": {
+        "headline": "Signalverarbeitung:",
+        "text-1": "Fourier-Transformation, Hilbert-Huang-Transformation, Fraktal-Analyse."
+      },
+      "second-text": {
+        "headline": "Statistische Analyse:",
+        "text-1": "Variabilitätsmetriken wie SDNN, RMSSD.",
+        "text-2": "Maschinelles Lernen:",
+        "text-3": "K-Means-Clustering und Regression.",
+        "text-4": "Vorteile",
+        "text-5": "Automatisierte Analyse und Empfehlungen.",
+        "text-6": "Integration mit mobilen und webbasierten Plattformen."
+      }
+    },
+    "data-analysis-process": {
+      "measurement": "Messung",
+      "data-transfer": "Übertragung",
+      "data-analysis": "Analyse"
+    }
   }
 }

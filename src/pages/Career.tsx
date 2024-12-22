@@ -14,7 +14,7 @@ export const Career = () => {
         ></div>
       </div>
 
-      <div className="text-section">
+      <article className="text-section">
         <h2>{t("career-page.heading")}</h2>
         <p className="first-text">{t("career-page.first_text")}</p>
         <p
@@ -41,7 +41,7 @@ export const Career = () => {
           dangerouslySetInnerHTML={{ __html: t("career-page.third_text") }}
         ></p>
         <p className="fourth-text">{t("career-page.fourth_text")}</p>
-      </div>
+      </article>
     </section>
   );
 };

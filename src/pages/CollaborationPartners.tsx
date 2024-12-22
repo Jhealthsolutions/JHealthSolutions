@@ -13,11 +13,11 @@ export const CollaborationPartners = () => {
           alt="image of Jessica Bräun"
           loading="lazy"
         ></img>
-        <div className="info-text">
+        <article className="info-text">
           <h1>{t("collaboration-partners-page.jessica.name")}</h1>
           <h3>{t("collaboration-partners-page.jessica.degree")}</h3>
           <h3>{t("collaboration-partners-page.jessica.role")}</h3>
-        </div>
+        </article>
       </section>
 
       <section className="profile-dmytro">
@@ -26,11 +26,11 @@ export const CollaborationPartners = () => {
           alt="image of Jessica Bräun"
           loading="lazy"
         ></img>
-        <div className="info-text">
+        <article className="info-text">
           <h1>{t("collaboration-partners-page.dmytro.name")}</h1>
           <h3>{t("collaboration-partners-page.dmytro.degree")}</h3>
           <h3>{t("collaboration-partners-page.dmytro.role")}</h3>
-        </div>
+        </article>
       </section>
     </div>
   );

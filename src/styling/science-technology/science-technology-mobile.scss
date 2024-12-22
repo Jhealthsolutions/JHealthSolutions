@@ -4,53 +4,82 @@
 .science-technology-container {
   display: flex;
   flex-direction: column;
-}
 
-.home-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: white;
-  height: 60px;
-  width: 100%;
-
-  @include main-green-color;
-  @include main-sans-font;
-
-  .header-left {
+  .image-container {
     display: flex;
-    align-items: center;
-
-    p {
-      margin-left: 10px;
-      font-size: 1rem;
-    }
-
-    img {
-      margin-left: 8px;
-      max-height: 20px;
-      max-width: 20px;
-      margin-right: 7px;
-    }
-  }
-
-  .header-right {
-    p {
-      font-size: 1rem;
-      margin-right: 10px;
-    }
-  }
-}
-
-.image-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
-
-  .science-technology-image {
-    max-width: 100%;
+    margin-top: 20px;
+    width: 100%;
     height: auto;
+    flex-direction: column;
+
+    .science-technology-image {
+      width: 100%;
+      height: auto;
+    }
+
+    .small-image-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin: 30px 0 0 0;
+
+      .arrow {
+        margin: auto 0 auto 0;
+
+        svg {
+          width: 40px;
+          height: 40px;
+        }
+      }
+
+      .image-text-wrapper {
+        width: 100%;
+        height: auto;
+        @include main-sans-font;
+        font-size: 1.2rem;
+        text-align: center;
+
+        img {
+          width: auto;
+          height: 70px;
+        }
+
+        h4 {
+          width: auto;
+          margin: 0 0 10px 0;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+
+  .text-info-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    @include main-sans-font;
+    text-align: left;
+
+    h2 {
+      color: #737373;
+      text-align: center;
+      font-size: 1.2rem;
+    }
+
+    h3 {
+      margin: 0 0 0 20px;
+      color: #545454;
+    }
+
+    h4 {
+      margin: 10px 0 0 30px;
+      color: #737373;
+    }
+
+    p {
+      color: #737373;
+    }
   }
 }
+
+

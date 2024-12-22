@@ -1,23 +1,66 @@
+@use "../mixins/fonts.scss" as *;
+@use "../mixins/colors.scss" as *;
+
 @media (min-width: 1024px) {
-  .home-header {
-    .header-left {
+
+  .science-technology-container {
+    flex-direction: row;
+
+    .text-info-section {
+
+      h2 {
+        font-size: 1.5rem;
+        text-align: left;
+      }
+
+      h3 {
+        font-size: 1.2rem;
+      }
+
+      h4 {
+        font-size: 1rem;
+      }
+
       p {
-        margin-left: 35px;
+        font-size: 1rem;
       }
     }
 
-    .header-right {
-      p {
-        margin-right: 35px;
+    .image-container {
+      width: auto;
+      height: auto;
+      margin: 0 2% 0 3%;
+      flex-direction: column;
+
+      .science-technology-image {
+        width: auto;
+        height: 400px;
       }
-    }
-  }
 
-  .image-container {
-    justify-content: flex-start;
+      .small-image-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 30px 0 0 0;
 
-    .science-technology-image {
-      max-width: 50%;
+        .arrow {
+          margin: auto 0 auto 0;
+        }
+
+        .image-text-wrapper {
+          width: 150px;
+          height: auto;
+          @include main-sans-font;
+          font-size: 1.2rem;
+          text-align: center;
+
+          h4 {
+            width: auto;
+            margin: 0 0 20px 0;
+            font-size: 1.4rem;
+          }
+        }
+      }
     }
   }
 }

@@ -7,9 +7,9 @@ export const Privacy = () => {
   return (
     <>
       <div className="privacy-container">
-        <img src={image} alt="" className="background-image"></img>
+        <img src={image} alt="background image of Berlin" className="background-image"></img>
         <div className="texts">
-          <section className="text-1">
+          <article className="text-1">
             <h3>{t("privacy-page.headline")}</h3>
             <p
               dangerouslySetInnerHTML={{ __html: t("privacy-page.first-text") }}
@@ -27,16 +27,16 @@ export const Privacy = () => {
                 __html: t("privacy-page.fourth-text"),
               }}
             />
-          </section>
+          </article>
 
-          <section className="text-2">
+          <article className="text-2">
             <p
               dangerouslySetInnerHTML={{ __html: t("privacy-page.fifth-text") }}
             />
             <p
               dangerouslySetInnerHTML={{ __html: t("privacy-page.sixth-text") }}
             />
-          </section>
+          </article>
         </div>
       </div>
     </>

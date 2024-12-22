@@ -8,7 +8,7 @@ export const AboutUs = () => {
     <div className="about-us-container">
       <img src={image} alt="image of berlin" className="background-image"></img>
       <section className="texts">
-        <section className="text-1">
+        <article className="text-1">
           <p
             dangerouslySetInnerHTML={{
               __html: t("about-us.section1.company_info"),
@@ -30,8 +30,8 @@ export const AboutUs = () => {
               __html: t("about-us.section1.responsible_person"),
             }}
           ></p>
-        </section>
-        <section className="text-2">
+        </article>
+        <article className="text-2">
           <p
             dangerouslySetInnerHTML={{
               __html: t("about-us.section2.online_dispute"),
@@ -42,7 +42,7 @@ export const AboutUs = () => {
               __html: t("about-us.section2.disclaimer"),
             }}
           ></p>
-        </section>
+        </article>
       </section>
     </div>
   );
